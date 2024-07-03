@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./padre.component.css']
 })
 export class PadreComponent {
+
  valorContador: number = 0;
+ mensajePadre= "Ojala Messi llegue al proximo mundial."; 
 
  incrementar(){
   this.valorContador++;
@@ -15,5 +17,5 @@ export class PadreComponent {
  decrementar(){
   this.valorContador--;
  }
-
+ 
 }
