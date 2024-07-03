@@ -17,7 +17,6 @@ export class PadreComponent {
     this.mensajeRecibido = $event;
   }
 
-
  incrementar(){
   this.valorContador++;
  }
